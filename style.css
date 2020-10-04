@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+  background: linear-gradient(to bottom, #48cae4, white);
+}
+.header{
+  height: 35px;
+  background-color: white;
+}
+.bb{
+  padding-top: 8%;
+}
+
+h5{
+  padding-top: 5px;
+  color: #48cae4;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colorCycle{
+  width: 50%;
+  height: 250px;
+  background-color: rgba(0,0,0,0.35);
+  border-radius: 20%;
+}

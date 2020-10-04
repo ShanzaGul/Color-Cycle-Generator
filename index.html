@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+  </head>
+  <body>
+<div class="container-fluid main">
+  <div class="row header">
+      <div class="col-12">
+ <div class="nav justify-content-center">
+   <h5>Color Cycle Generator</h5>
+ </div>
+      </div>
+  </div>
+<div class="row">
+  <div class="col-lg-6 col-sm-12 bb">
+    <div class="readings">
+           <div class="row d-flex justify-content-center">
+             <input type="button"  class="btn btn-outline-info" value="Start the Color Cycle"   onclick="startColorCycle()">
+
+           </div>
+
+           <div class="row d-flex justify-content-center mt-2">
+             <input type="button" class="btn btn-outline-info" value="Stop the Color Cycle"  onclick="stopColorCycle()">
+           </div>
+
+            <div class="row d-flex justify-content-center mt-2">
+              <input class="form-control" id="red" type="number"  value="72" max="255" min="0" style=" width: 100px;">
+              <input class="form-control" id="green" type="number"  value="202" max="255" min="0" style=" width: 100px;" >
+              <input class="form-control" id="blue" type="number"  value="228" max="255" min="0" style=" width: 100px;">
+
+           </div>
+  </div>
+
+
+
+
+
+</div>
+
+
+<div class="col-lg-6 col-sm-12 bb">
+  <div class="row d-flex justify-content-center">
+    <div class="colorCycle">
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+  </body>
+  <script src="function.js"></script>
+</html>
